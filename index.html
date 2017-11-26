@@ -1,22 +1,69 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Hello, world!</title>
-		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
+		<title>Hello, world!</title>
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/style.css">
 	</head>
 <body>
-	<nav class="navbar fixed-top navbar navbar-light" style="background-color:#7DBEA5;">
+	<header id="header" class="navbar navbar-expand fixed-top navbar navbar-light">
+		<div class="container">
 		<!-- Logo -->
-		<a class="navbar-brand" href="#">
-			<img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+			<a class="navbar-brand" href="#">technical-vocabulary</a>
+			<!-- 모바일용 메뉴 버튼 -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						수집기
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">PDF</a>
+						<a class="dropdown-item" href="#">URL</a>
+						<div class="dropdown-divider"></div>
+					</div>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link disabled" href="#">데이터 관리</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+
+				</form>
+			</div>
+    
+		</div>
+	</header>
+	
+	<!-- Content start -->
+	
+	
+	<main id="contents" class ="container" style="padding-top:65px;">
+		<div>
+			<!--<button type="button" class="btn btn-primary">
+			시스템 알림 <span class="badge badge-light">4</span>
+			</button>-->
 			
-		</a>
-	</nav>
+			수집기1 : <span class="badge badge-secondary">Sleep</span>
+			수집기2 : <span class="badge badge-primary">Collecting</span>
+			수집기3 : <span class="badge badge-dark">Off</span>
+			
+
+		</div>
+		<h1>집계 단어</h1>
+
+	</main>
+	
+	<!--// Content end. -->	
 	
 	<!-- Optional JavaScript -->
 	

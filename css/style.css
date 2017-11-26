@@ -1,0 +1,20 @@
+body {
+	background-color:#f4f4f4;
+	
+}
+#header {
+	background-color:#7DBEA5;
+	color:#fff;
+	}
+	
+#header .navbar-brand, #header .nav-item>a {
+	color:#fff;
+	
+}
+
+#contents {
+	background:#fff;
+	border:1px solid rgba(0, 0, 0, 0.1);
+	border-top:0; border-bottom:0;
+}
+
